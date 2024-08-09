@@ -5,6 +5,8 @@
 
 # Autenticação na API do Google
 import os
+os.environ['USER_AGENT'] = "sentimento_ata/1.0 (mwbrisac@icconsult.net)"
+
 import requests
 import json
 import pickle
@@ -15,7 +17,6 @@ from langchain.docstore.document import Document
 from langchain_community.document_loaders import WebBaseLoader
 
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
-os.environ['USER_AGENT'] = "sentimento_ata/1.0 (mwbrisac@icconsult.net)"
 # Coleta de dados ----
 
 def send_prompt_to_openai(prompt, client):
@@ -41,8 +42,13 @@ def envia_prompt(client, documento):
 
     response_text = send_prompt_to_openai(prompt, client)
     resp=[]
-    for partial in response_text.split("\n"):
-        resp.append(float(partial.split("\n")[0].rstrip().split(" ")[-1].replace("%","")))
+    try:
+        for partial in response_text.split("\n"):
+            resp.append(float(partial.split("\n")[0].rstrip().split(" ")[-1].replace("%","")))
+    except Exception as e:
+        print(response_text)
+        resp=[0,0]
+        pass
     return resp
 
 
@@ -68,6 +74,9 @@ def coleta_atas():
 
 
 if __name__ == "__main__":
+    #docs=coleta_atas()
+    #with open("atas.pkl","wb") as f:
+    #    pickle.dump(docs,f)
 
     with open("atas.pkl","rb") as f:
         docs=pickle.load(f)
@@ -75,14 +84,15 @@ if __name__ == "__main__":
     client=OpenAI()
     x=configura_persona(client)
     dados=[]
-    for doc in docs[:10]:
+    for doc in docs:
         x=envia_prompt(client,doc)
         print(doc.metadata["data"]+" - Corte: "+str(x[0])+" - Alta: "+str(x[1]))
         dados.append({"data":doc.metadata["data"],
                       "corte":x[0],
-                      "alta" :x[1]
-                      })
+                      "alta" :x[1]})
 
+    df=pd.DataFrame(dados).set_index("data")
+    df.to_csv('modelo.csv')
     
 
         

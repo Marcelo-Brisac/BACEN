@@ -1,1 +1,4 @@
 venv
+settings.py
+atas.pkl
+__pycache__/settings.cpython-310.pyc

@@ -1,0 +1,6 @@
+langchain==0.2.12
+langchain-community==0.2.11
+openai==1.40.2
+requests==2.32.3
+pandas==2.2.2
+bs4==0.0.2
