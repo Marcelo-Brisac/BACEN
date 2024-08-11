@@ -1,34 +1,64 @@
-data,corte,alta
-2020-08-05,70.0,10.0
-2020-09-16,70.0,10.0
-2020-10-28,15.0,5.0
-2020-12-09,70.0,5.0
-2021-01-20,30.0,40.0
-2021-03-17,0.0,100.0
-2021-05-05,0.0,100.0
-2021-06-16,20.0,80.0
-2021-08-04,0.0,100.0
-2021-09-22,0.0,100.0
-2021-10-27,0.0,100.0
-2021-12-08,5.0,95.0
-2022-02-02,0.0,100.0
-2022-03-16,0.0,100.0
-2022-05-04,25.0,75.0
-2022-06-15,20.0,80.0
-2022-08-03,20.0,80.0
-2022-09-21,20.0,10.0
-2022-10-26,30.0,10.0
-2022-12-07,20.0,5.0
-2023-02-01,25.0,15.0
-2023-03-22,20.0,10.0
-2023-05-03,30.0,10.0
-2023-06-21,40.0,10.0
-2023-08-02,80.0,20.0
-2023-09-20,80.0,10.0
-2023-11-01,80.0,20.0
-2023-12-13,80.0,0.0
-2024-01-31,80.0,0.0
-2024-03-20,70.0,10.0
-2024-05-08,70.0,10.0
-2024-06-19,15.0,5.0
-2024-07-31,20.0,25.0
+data,titulo,corte,alta
+2016-10-19,"Copom reduz a taxa Selic para 14,00% ao ano",70.0,10.0
+2016-11-30,"Copom reduz a taxa Selic para 13,75% ao ano",70.0,10.0
+2017-01-11,"Copom reduz a taxa Selic para 13,00% ao ano",70.0,10.0
+2017-02-22,"Copom reduz a taxa Selic para 12,25% ao ano",70.0,5.0
+2017-04-12,"Copom reduz a taxa Selic para 11,25% ao ano  ",80.0,5.0
+2017-05-31,"Copom reduz a taxa Selic para 10,25% ao ano",80.0,5.0
+2017-07-26,"Copom reduz a taxa Selic para 9,25% ao ano",70.0,10.0
+2017-09-06,"Copom reduz a taxa Selic para 8,25% ao ano",70.0,10.0
+2017-10-25,"Copom reduz a taxa Selic para 7,50% ao ano",75.0,5.0
+2017-12-06,"Copom reduz a taxa Selic para 7,00% ao ano",80.0,5.0
+2018-02-07,"Copom reduz a taxa Selic para 6,75% ao ano",70.0,10.0
+2018-03-21,"Copom reduz taxa Selic para 6,50% ao ano",75.0,10.0
+2018-05-16,"Copom mantém taxa Selic em 6,50% a.a.",80.0,20.0
+2018-06-20,"Copom mantém taxa Selic em 6,50% a.a.",30.0,10.0
+2018-08-01,"Copom mantém taxa Selic em 6,50% a.a.",20.0,10.0
+2018-09-19,"Copom mantém taxa Selic em 6,50% a.a.",10.0,5.0
+2018-10-31,"Copom mantém taxa Selic em 6,50 % a.a.",25.0,15.0
+2018-12-12,"Copom mantém taxa Selic em 6,50% a.a.",0.0,0.0
+2019-02-06,"Copom mantém taxa Selic em 6,50 % a.a.",30.0,10.0
+2019-03-20,"Copom mantém taxa Selic em 6,50 % ao ano",10.0,5.0
+2019-05-08,"Copom mantém taxa Selic em 6,50 % a.a.",10.0,20.0
+2019-06-19,"Copom mantém taxa Selic em 6,50% a.a.",10.0,5.0
+2019-07-31,"Copom reduz taxa Selic para 6,00% a.a.",70.0,10.0
+2019-09-18,"Copom reduz taxa Selic para 5,50% a.a.",70.0,5.0
+2019-10-30,"Copom reduz taxa Selic para 5,00% a.a.",70.0,10.0
+2019-12-11,"Copom reduz taxa Selic para 4,50% a.a.",80.0,10.0
+2020-02-05,"Copom reduz taxa Selic para 4,25% a.a.",85.0,5.0
+2020-03-18,"Copom reduz a taxa Selic para 3,75% a.a.",70.0,10.0
+2020-05-06,"Copom reduz a taxa Selic para 3,00% a.a.",60.0,10.0
+2020-06-17,"Copom reduz a taxa Selic para 2,25% a.a.",80.0,20.0
+2020-08-05,"Copom reduz a taxa Selic para 2,00% a.a.",80.0,10.0
+2020-09-16,"Copom mantém a taxa Selic em 2,00% a.a.",10.0,5.0
+2020-10-28,"Copom mantém a taxa Selic em 2,00% a.a.",10.0,20.0
+2020-12-09,"Copom mantém a taxa Selic em 2,00% a.a.",0.0,0.0
+2021-01-20,"Copom mantém a taxa Selic em 2,00% a.a.",10.0,5.0
+2021-03-17,"Copom eleva a taxa Selic para 2,75% a.a.",0.0,100.0
+2021-05-05,"Copom eleva a taxa Selic para 3,50% a.a.",0.0,100.0
+2021-06-16,"Copom eleva a taxa Selic para 4,25% a.a.",0.0,100.0
+2021-08-04,"Copom eleva a taxa Selic para 5,25% a.a.",0.0,100.0
+2021-09-22,"Copom eleva a taxa Selic para 6,25% a.a.",10.0,90.0
+2021-10-27,"Copom eleva a taxa Selic para 7,75% a.a.",0.0,100.0
+2021-12-08,"Copom eleva a taxa Selic para 9,25% a.a.",0.0,100.0
+2022-02-02,"Copom eleva a taxa Selic para 10,75% a.a.",10.0,90.0
+2022-03-16,"Copom eleva a taxa Selic para 11,75% a.a.",10.0,90.0
+2022-05-04,"Copom eleva a taxa Selic para 12,75% a.a.",10.0,50.0
+2022-06-15,"Copom eleva a taxa Selic para 13,25% a.a.",30.0,70.0
+2022-08-03,"Copom eleva a taxa Selic para 13,75% a.a.",20.0,0.0
+2022-09-21,"Copom mantém a taxa Selic em 13,75% a.a.",20.0,10.0
+2022-10-26,"Copom mantém a taxa Selic em 13,75% a.a.",10.0,5.0
+2022-12-07,"Copom mantém a taxa Selic em 13,75% a.a.",15.0,5.0
+2023-02-01,"Copom mantém a taxa Selic em 13,75% a.a.",30.0,10.0
+2023-03-22,"Copom mantém a taxa Selic em 13,75% a.a.",5.0,0.0
+2023-05-03,"Copom mantém a taxa Selic em 13,75% a.a.",10.0,5.0
+2023-06-21,"Copom mantém a taxa Selic em 13,75% a.a.",20.0,15.0
+2023-08-02,"Copom reduz a taxa Selic para 13,25% a.a.",75.0,0.0
+2023-09-20,"Copom reduz a taxa Selic para 12,75% a.a.",80.0,5.0
+2023-11-01,"Copom reduz a taxa Selic para 12,25% a.a.",70.0,10.0
+2023-12-13,"Copom reduz a taxa Selic para 11,75% a.a.",70.0,10.0
+2024-01-31,"Copom reduz a taxa Selic para 11,25% a.a.",80.0,5.0
+2024-03-20,"Copom reduz a taxa Selic para 10,75% a.a.",80.0,5.0
+2024-05-08,"Copom reduz a taxa Selic para 10,50% a.a.",70.0,10.0
+2024-06-19,"Copom mantém a taxa Selic em 10,50% a.a.",0.0,0.0
+2024-07-31,"Copom mantém a taxa Selic em 10,50% a.a.",10.0,5.0

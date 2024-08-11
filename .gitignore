@@ -2,3 +2,4 @@ venv
 settings.py
 atas.pkl
 __pycache__/settings.cpython-310.pyc
+__pycache__/charts.cpython-310.pyc
